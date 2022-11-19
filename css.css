@@ -1,0 +1,130 @@
+
+*{
+        background-color: black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+h1{
+        /* background-color: green; */
+        text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: aqua;
+    margin-top: 35px;
+    border: 2px red solid;
+    width: 41%;
+    box-shadow: 0px 0px 5px 3px;
+}
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .conten{
+        background-color: rgb(0 0 0);
+        height: 200px;
+        border-radius: 50%;
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        margin-top: 30px;
+        box-shadow: 0px -1px 6px 0px #e7e7e7;
+    }
+      
+      .one{
+        background-color: aqua;
+        height: 41px;
+        position: absolute;
+        width: 200px;
+        height: 2px;
+        top: 99px;
+       
+      }
+      .two{
+        background-color: aqua;
+        height: 41px;
+        position: absolute;
+        width: 200px;
+        height: 2px;
+        top: 99px;
+        left: 1px;
+        transform: rotateZ(90deg);
+      }
+      .three,.four,.five,.six{
+        height: 41px;
+        position: absolute;
+        width: 200px;
+        height: 2px;
+        top: 99px;
+        left: 1px;
+        background-color: rgb(218, 192, 41);
+      }
+      .three{
+        transform: rotateZ(117deg);
+      }
+      .four{
+        transform: rotateZ(150deg);
+      }
+      .five{
+        transform: rotateZ(213deg);
+      }
+      .six{
+        transform: rotateZ(244deg);
+      }
+      .subcont{
+        position: absolute;
+        width: 178px;
+        height: 167px;
+        top: 19px;
+        left: 12px;
+        background-color: rgb(0 0 0);
+        border-radius: 50%;
+    
+      }
+      .firsthand{
+        position: absolute;
+        width: 85px;
+        height: 2px;
+        top: 75px;
+        left: 86px;
+        background-color: rgb(214, 12, 1);
+        transform-origin: 0px bottom;
+      }
+      .secondhand{
+    
+        position: absolute;
+        width: 60px;
+        height: 2px;
+        top: 75px;
+        left: 86px;
+        background-color: rgb(41 218 87);
+        transform-origin: 0px bottom;
+    
+    
+    
+        
+    }
+     
+    
+      .thirdhand{
+        position: absolute;
+        width: 54px;
+        height: 4px;
+        top: 75px;
+        left: 86px;
+        background-color: rgb(41 63 218);
+        transform: rotate(106deg);
+        transform-origin: 0px bottom;
+    }
+    .center-nail{
+      position: absolute;
+        width: 18px;
+        height: 19px;
+        top: 70px;
+        left: 79px;
+        background-color: rgb(5 10 7 / 99%);
+        border-radius: 50%;
+        box-shadow: inset 0px 0px 1px wheat;
+    }
